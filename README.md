@@ -31,4 +31,8 @@ Execute the KACE utility to upload a file.
 
 ![alt text](https://github.com/billchaison/kace-abuse/blob/main/k02.png)
 
+For multi-line messages use base64 encoding between `!ENC!` markers.
 
+`"C:\Program Files (x86)\Quest\KACE\KUserAlert.exe" -name="IMPORTANT MESSAGE" -message=!ENC!WW91ciBjb21wdXRlciBpcyBtaXNzaW5nIGNyaXRpY2FsIHNlY3VyaXR5IHVwZGF0ZXMuCgpDbGljayBoZXJlIHRvIGluc3RhbGwgdGhlbSBhcyBzb29uIGFzIHBvc3NpYmxlLgoKaHR0cHM6Ly9hdHRhY2tlci5zaXRl!ENC! -title="Mandatory Software Patches Required" -ok`
+
+![alt text](https://github.com/billchaison/kace-abuse/blob/main/k03.png)
